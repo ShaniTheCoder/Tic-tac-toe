@@ -1,3 +1,4 @@
+
 let slots = [
     document.getElementById("slot1") as HTMLDivElement,
     document.getElementById("slot2") as HTMLDivElement,
@@ -9,7 +10,6 @@ let slots = [
     document.getElementById("slot8") as HTMLDivElement,
     document.getElementById("slot9") as HTMLDivElement
 ];
-
 var turn = "X";
 let current_turn = document.getElementById("turn") as HTMLParagraphElement;
 current_turn.innerHTML = turn;

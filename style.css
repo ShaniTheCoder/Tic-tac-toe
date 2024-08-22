@@ -78,7 +78,7 @@ body {
     font-size: 1.1em;
     margin:8px;
 }
-button{
+button, .answer:hover{
     border:none;
     padding: 5px 8px;
     font-size: 0.95em;
@@ -92,4 +92,18 @@ button:hover{
     color:var(--dark-theme);
     background-color: var(--nice-red);
     text-shadow: 0 0 5px var(--nice-red),0 0 8px black;
+}
+#options{
+    margin: 15px;
+    display: flex;
+    gap: 10px;
+    min-width: fit-content;
+    max-width: 30vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.answer{
+    background: var(--nice-red);
+    color: var(--dark-theme);
+    text-shadow: 0 0 5px var(--nice-red), 0 0 10px black;
 }
